@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+      <div class="media">
+        <div class="media-body">
+          <h2 class="account-heading">{{ current_user.email }}</h2>
+            <p class="text-secondary">{{ current_user.fname }}</p>
+            <p class="text-secondary">{{ current_user.lname }}</p>
+            <p class="text-secondary">{{ current_user.add }}</p>
+            <p class="text-secondary">{{ current_user.dob }}</p>
+            <p class="text-secondary">{{ current_user.phn }}</p>
+        </div>
+      </div>
+
+
+
+    </div>
+{% endblock content %}
+

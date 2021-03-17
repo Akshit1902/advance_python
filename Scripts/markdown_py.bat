@@ -1,0 +1,1 @@
+@"c:\users\akshitdevpura\pycharmprojects\crud\scripts\python.exe" "c:\users\akshitdevpura\pycharmprojects\crud\Scripts\markdown_py" %*
